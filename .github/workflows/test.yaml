@@ -1,6 +1,6 @@
 on:
   pull_request:
-    type: [labeled, unlabeled]
+    types: [labeled, unlabeled]
 
 jobs:
   test-1:
